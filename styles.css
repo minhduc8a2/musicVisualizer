@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #000000;
+  position: relative;
+  height: 100vh;
+}
+
+#audio-player,
+#visualizer {
+  position: absolute;
+  width: 100%;
+}
+#audio-file {
+  position: absolute;
+}
+#audio-file::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 1em;
+  border: thin solid grey;
+  border-radius: 1rem;
+}
+#visualizer {
+  top: 0;
+  left: 0;
+}
+#audio-file {
+  top: 1rem;
+  left: 5px;
+}
+
+#audio-player {
+  top: 100px;
+
+  left: 0;
+  
+}
